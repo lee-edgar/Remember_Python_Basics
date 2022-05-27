@@ -40,7 +40,7 @@ e.g) type(n)
 ### replace
 * 문자열 내의 특정 문자 치환
 * e.g)
-* a = 'hello world'
+*     a = 'hello world'
 *     a.replace('h', 'j')
 *     print) jello world
 
@@ -48,18 +48,18 @@ e.g) type(n)
 ### format
 * 문자열 내의 특정한 값을 변수로부터 초기화하여 동적으로 문자열 생성
 * e.g)
-* temp = 22.5
-* prob = 80.0
-* a = '오늘 기온{}도 이고, 비올 확률은 {}%입니다.'.format(temp, prob)
-* print) 오늘 기온22.5도 이고, 비올 확률은 80.0%입니다.
+*     temp = 22.5
+*     prob = 80.0
+*     a = '오늘 기온{}도 이고, 비올 확률은 {}%입니다.'.format(temp, prob)
+*     print) 오늘 기온22.5도 이고, 비올 확률은 80.0%입니다.
 
 ###split
 * 문자열을 특정한 문자 구분하여 문자열의 리스트로 치환
 *e.g)
-* a = 'hello world what'
-* a.split()
-* print) ['hello', 'world', 'what']
+*     a = 'hello world what'
+*     a.split()
+*     print) ['hello', 'world', 'what']
 
-* a.split(w)
-* print) ['hello', 'orld', 'hat']
+*     a.split(w)
+*     print) ['hello', 'orld', 'hat']
 * 값을 넣어줄 경우 값에 대한 부분 제외 split
