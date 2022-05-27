@@ -53,7 +53,7 @@ e.g) type(n)
 *     a = '오늘 기온{}도 이고, 비올 확률은 {}%입니다.'.format(temp, prob)
 *     print) 오늘 기온22.5도 이고, 비올 확률은 80.0%입니다.
 
-###split
+### split
 * 문자열을 특정한 문자 구분하여 문자열의 리스트로 치환
 *e.g)
 *     a = 'hello world what'
